@@ -16,6 +16,9 @@
 		CA680ECE2A0B3C6D00EAF7EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA680ECC2A0B3C6D00EAF7EF /* LaunchScreen.storyboard */; };
 		CACEBA4C2A0DE80F00E959A5 /* StudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACEBA4B2A0DE80F00E959A5 /* StudentCell.xib */; };
 		CACEBA4E2A0DE85700E959A5 /* studentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACEBA4D2A0DE85700E959A5 /* studentCell.swift */; };
+		CF6145022A1216490064084B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6144FF2A1216490064084B /* CustomCollectionViewCell.swift */; };
+		CF6145032A1216490064084B /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6145002A1216490064084B /* CustomCollectionViewCell.xib */; };
+		CF6145042A1216490064084B /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6145012A1216490064084B /* MyCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		CA680ECF2A0B3C6D00EAF7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACEBA4B2A0DE80F00E959A5 /* StudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCell.xib; sourceTree = "<group>"; };
 		CACEBA4D2A0DE85700E959A5 /* studentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentCell.swift; sourceTree = "<group>"; };
+		CF6144FF2A1216490064084B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF6145002A1216490064084B /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF6145012A1216490064084B /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		CA680EC02A0B3C6C00EAF7EF /* SwiftUIKitTraining */ = {
 			isa = PBXGroup;
 			children = (
+				CF6144FD2A1216490064084B /* CollectionViewExample */,
 				CA9422FA2A0DE3EA005CBD1D /* TableViewController */,
 				CA680EC12A0B3C6C00EAF7EF /* AppDelegate.swift */,
 				CA680EC32A0B3C6D00EAF7EF /* SceneDelegate.swift */,
@@ -90,6 +97,24 @@
 				CACEBA4D2A0DE85700E959A5 /* studentCell.swift */,
 			);
 			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		CF6144FD2A1216490064084B /* CollectionViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CF6144FE2A1216490064084B /* MyCollectionViewCell */,
+				CF6145012A1216490064084B /* MyCollectionViewController.swift */,
+			);
+			path = CollectionViewExample;
+			sourceTree = "<group>";
+		};
+		CF6144FE2A1216490064084B /* MyCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CF6144FF2A1216490064084B /* CustomCollectionViewCell.swift */,
+				CF6145002A1216490064084B /* CustomCollectionViewCell.xib */,
+			);
+			path = MyCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +178,7 @@
 				CA680ECE2A0B3C6D00EAF7EF /* LaunchScreen.storyboard in Resources */,
 				CA680ECB2A0B3C6D00EAF7EF /* Assets.xcassets in Resources */,
 				CA680EC92A0B3C6D00EAF7EF /* Main.storyboard in Resources */,
+				CF6145032A1216490064084B /* CustomCollectionViewCell.xib in Resources */,
 				CACEBA4C2A0DE80F00E959A5 /* StudentCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CACEBA4E2A0DE85700E959A5 /* studentCell.swift in Sources */,
+				CF6145022A1216490064084B /* CustomCollectionViewCell.swift in Sources */,
+				CF6145042A1216490064084B /* MyCollectionViewController.swift in Sources */,
 				CA680EC62A0B3C6D00EAF7EF /* ViewController.swift in Sources */,
 				CA680EC22A0B3C6C00EAF7EF /* AppDelegate.swift in Sources */,
 				CA52FE532A0DE70800D58DAA /* StudentTableViewController.swift in Sources */,
